@@ -27,6 +27,7 @@ a {
 .container {
     width: 1352px;
     margin: 0 auto;
+   
 }
 
 .header {
@@ -203,10 +204,15 @@ h2 {
 .benefits {
     padding: 100px 0;
     background-color: var(--color-light-grey);
+
 }
   
 .benefits__container {
     padding: 0 100px;
+}
+
+.benefits__title {
+    text-align: left;
 }
 
 .benefits__single {
@@ -231,6 +237,7 @@ h2 {
     background-color: var(--accent-color);
     display: block;
     margin-top: 50px;
+    text-align:left;
 }
   
 .benefits__description {
@@ -402,7 +409,7 @@ h2 {
     height: 11px;
     display: inline-block;
     margin-right: 10px;
-    background-image: url("../assets/Checkmark-1.svg");
+    background-image: url("../assets/Checkmark-2.svg");
 }
   
 .pricing__item--not::before {
@@ -456,6 +463,7 @@ h2 {
 .contact__title {
     font-size: 3.0625rem;
     line-height: 3.6875rem;
+    text-align: left;
 }
   
 .contact__instruction {
